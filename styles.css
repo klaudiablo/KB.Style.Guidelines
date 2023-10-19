@@ -1,0 +1,127 @@
+/* Reset default margin and padding */
+* {
+    margin: 10px 40px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body and text elements*/
+body {
+    text-align: left;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: 'Lobster Two', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+h3 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+p, ul, li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Fonts*/
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.lobster-two {
+    font-family: 'Lobster Two', sans-serif;
+}
+
+.source-sans-3 {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*General containers*/
+.container {
+    border: 2px solid #cfcccd;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+/*Color container and panels settings*/
+.color-container {
+    display: flex; /* Display the color panels in a horizontal row */
+    justify-content: space-around; /* Add spacing between the color panels */
+}
+
+.color-panel {
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Adjust horizontal spacing between color panels */
+}
+
+.dusty-pink {
+    background-color: #c8a8af;
+    color: #000;
+}
+
+.dark-peony {
+    background-color: #843945;
+    color: #fff;
+}
+
+.light-green {
+    background-color: #adb59f;
+    color: #000;
+}
+
+.dusty-green {
+    background-color: #4e6d6c;
+    color: #000;
+}
+
+.deep-green {
+    background-color: #1d332d;
+    color: #fff;
+}
+
+/*Font and text panel*/
+.font-panel {
+    width: 45%;
+    padding-top: 20px;
+}
+
+.text-panel {
+    padding-top: 20px;
+}
